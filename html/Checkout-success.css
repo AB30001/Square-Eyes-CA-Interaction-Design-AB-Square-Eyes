@@ -63,9 +63,7 @@ body {
   .text-line {
     margin: 5px 0;
   }
-  #invisible-column {
-    display: none;
-  }
+ 
   
   .purchase-info {
     width: 796px;
@@ -147,10 +145,8 @@ body {
       height: auto;
       flex-direction: column;
     }
-    #column-with-logo {
-        display: none;
-    }
+   
     
-  }
+
   
   

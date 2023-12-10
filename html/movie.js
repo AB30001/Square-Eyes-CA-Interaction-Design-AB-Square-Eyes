@@ -108,20 +108,23 @@ iconsContainer.append(favoriteIcon, watchLaterIcon, watchedIcon);
     favorite.textContent = movieData.favorite ? 'This is one of your favorite movies!' : 'Not marked as favorite';
 
     const watchButton = document.createElement('button');
-    watchButton.textContent = 'Watch';
-    watchButton.className = 'watch-button';
-    // Add event listener for watch button
-    watchButton.addEventListener('click', () => {
-        console.log('Watch button clicked for', movieData.title);
-    });
+watchButton.textContent = 'Watch';
+watchButton.className = 'watch-button';
+// Add event listener for watch button
+watchButton.addEventListener('click', () => {
+    console.log('Watch button clicked for', movieData.title);
+    window.location.href = 'checkout.html'; // Redirect to checkout.html
+});
 
-    const downloadButton = document.createElement('button');
-    downloadButton.textContent = 'Download';
-    downloadButton.className = 'download-button';
-    // Add event listener for download button
-    downloadButton.addEventListener('click', () => {
-        console.log('Download button clicked for', movieData.title);
-    });
+const downloadButton = document.createElement('button');
+downloadButton.textContent = 'Download';
+downloadButton.className = 'download-button';
+// Add event listener for download button
+downloadButton.addEventListener('click', () => {
+    console.log('Download button clicked for', movieData.title);
+    window.location.href = 'checkout.html'; // Redirect to checkout.html
+});
+
 
     movieDetailsContainer.append(title, image, watchTrailerButton, iconsContainer, storylineHeader, description, genre, rating, released, price, discountedPrice, tags, favorite, watchButton, downloadButton);
 }
