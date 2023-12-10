@@ -3,7 +3,11 @@ body {
   background-color: black;
   color: white; /* Set text color to white for better readability on a dark background */
 }
-
+a, h3 {
+  color: azure;
+  text-decoration: none;
+  text-align: center;
+}
 
 .movies-list {
   display: grid;
@@ -16,8 +20,8 @@ body {
 
 /* Styles for each movie div */
 .movie {
-  background-color: #fff;
-  border: 1px solid #ddd;
+  background-color: #250404;
+  border: 1px solid #ee0a0a;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 6px rgba(27, 2, 2, 0.1);
@@ -34,6 +38,7 @@ body {
   display: block;
   color: inherit;
   text-decoration: none;
+  
 }
 
 /* Styles for the movie image */

@@ -21,12 +21,65 @@ function renderMovie(movieData) {
 
     movieDetailsContainer.innerHTML = '';
 
+
     const title = document.createElement('h2');
     title.textContent = movieData.title;
 
     const image = document.createElement('img');
     image.src = movieData.image;
     image.alt = movieData.title;
+
+   // Watch Trailer button
+   const watchTrailerButton = document.createElement('button');
+   watchTrailerButton.textContent = 'Watch Trailer';
+   watchTrailerButton.className = 'watch-trailer-button';
+   // Add event listener for watch trailer button
+   watchTrailerButton.addEventListener('click', () => {
+       console.log('Watch Trailer button clicked for', movieData.title);
+       // Implement the action for this button, like opening a trailer video.
+   });
+
+
+    
+
+    // Icons container
+    const iconsContainer = document.createElement('div');
+    iconsContainer.className = 'icons-container';
+
+    // Favorite icon with text
+const favoriteIcon = document.createElement('span');
+favoriteIcon.textContent = '❤ Favorite';
+favoriteIcon.className = 'icon-favorite';
+favoriteIcon.addEventListener('click', () => {
+    favoriteIcon.classList.toggle('red-color');
+});
+
+// Watch later icon with text
+const watchLaterIcon = document.createElement('span');
+watchLaterIcon.textContent = '🕒 Watch Later';
+watchLaterIcon.className = 'icon-watch-later';
+watchLaterIcon.addEventListener('click', () => {
+    watchLaterIcon.classList.toggle('red-color');
+});
+
+// Watched icon with text
+const watchedIcon = document.createElement('span');
+watchedIcon.textContent = '✔ Watched';
+watchedIcon.className = 'icon-watched';
+watchedIcon.addEventListener('click', () => {
+    watchedIcon.classList.toggle('red-color');
+});
+
+
+iconsContainer.append(favoriteIcon, watchLaterIcon, watchedIcon);
+
+
+
+
+
+
+    const storylineHeader = document.createElement('h3');
+    storylineHeader.textContent = 'Storyline';
 
     const description = document.createElement('p');
     description.textContent = movieData.description;
@@ -70,8 +123,22 @@ function renderMovie(movieData) {
         console.log('Download button clicked for', movieData.title);
     });
 
-    movieDetailsContainer.append(title, image, description, genre, rating, released, price, discountedPrice, tags, favorite, watchButton, downloadButton);
+    movieDetailsContainer.append(title, image, watchTrailerButton, iconsContainer, storylineHeader, description, genre, rating, released, price, discountedPrice, tags, favorite, watchButton, downloadButton);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

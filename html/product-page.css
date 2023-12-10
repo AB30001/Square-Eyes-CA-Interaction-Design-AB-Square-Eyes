@@ -1,6 +1,6 @@
 body {
   background-color: black;
-  color: white; /* Set text color to white for better readability on a dark background */
+  color: white; 
 }
 
 
@@ -32,23 +32,22 @@ body {
   margin: 0 auto; /* This will center the movies-list if it's smaller than the movie-page */
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* This will center the items inside movies-list */
-  gap: 20px; /* Adjust the gap between items */
+  justify-content: center; 
+  gap: 20px; 
 }
 
-/* Styles for individual movie items */
+
+
 .movie {
-  flex-basis: 22%; /* Adjust the width of each movie item */
-  /* More styling for movie items */
+  flex-basis: 22%; 
 }
 
 .movie img {
-  width: 100%; /* Makes the image responsive within the movie item */
+  width: 100%; 
   height: auto;
-  /* More styling for images */
+  
 }
 
-/* product-page.css or a similar stylesheet */
 
 .movie-details {
   background-color: black;
@@ -71,6 +70,7 @@ body {
   text-align: center;
   font-size: 2em;
   margin-bottom: 20px;
+
 }
 
 .movie-details p {
@@ -92,8 +92,7 @@ body {
   margin-bottom: 10px;
 }
 
-/* Adjust other elements as needed to fit the theme */
-/* global.css */
+
 
 
 
@@ -101,29 +100,119 @@ body {
 .watch-button,
 .download-button {
   display: inline-block;
-  padding: 10px 20px; /* Adjust padding for button size */
+  padding: 10px 40px; /* Adjust padding for button size */
   font-size: 1.2em; /* Adjust font size */
   text-align: center;
   text-decoration: none;
   cursor: pointer;
-  border-radius: 5px; /* Adjust border radius for rounded corners */
+  border-radius: 30px; /* Adjust border radius for rounded corners */
   transition: background-color 0.3s ease; /* Add a smooth transition effect */
 }
 
-/* Watch button specific styles */
+
 .watch-button {
-  background-color: #ff4081; /* Pink color */
+  background-color: #ff4081; 
   color: white;
 }
 
-/* Download button specific styles */
+
 .download-button {
-  background-color: #e53935; /* Red color */
+  background-color: #e53935; 
   color: white;
 }
 
 /* Hover effect for both buttons */
 .watch-button:hover,
 .download-button:hover {
-  background-color: #ff80ab; /* Lighter pink on hover */
+  background-color: #ff80ab; 
 }
+
+.icons-container {
+  display: flex;
+  justify-content: center; 
+  gap: 10px; 
+  margin: 10px;
+}
+
+.red-color {
+  color: red;
+}
+
+
+.icon-favorite, .icon-watch-later, .icon-watched {
+  cursor: pointer;
+}
+
+
+.watch-trailer-button {
+  display: block; 
+  width: 50%; 
+  margin: 0 auto; 
+  padding: 10px 20px;
+  margin-top: 20px; 
+  margin-bottom: 20px;
+  font-size: 1em; 
+  border-radius: 15px; 
+  background-color: #2A2542; 
+  color: white; 
+  border: none; 
+  cursor: pointer; /
+  transition: background-color 0.3s ease; 
+}
+
+.watch-trailer-button:hover {
+  background-color: rgba(0, 87, 179, 0.466);
+}
+
+
+
+.Comments h3 {
+  color: #fffdfd;
+  margin-bottom: 10px;
+}
+
+
+.comments-list {
+  max-height: 300px; 
+  overflow-y: auto; 
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #2A2542;
+  border-radius: 5px;
+  border: 1px solid #2A2542;
+}
+
+/
+.comment {
+  background-color: #eee; 
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: 0.9em;
+}
+
+
+.comment-form {
+  display: flex;
+  gap: 10px; }
+
+
+.comment-input {
+  flex-grow: 1; 
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+
+.comment-submit {
+  padding: 8px 15px;
+  background-color: #E5E5E5;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+ }
+
+ .Comments {
+  margin: 20px;
+ }
+
+
