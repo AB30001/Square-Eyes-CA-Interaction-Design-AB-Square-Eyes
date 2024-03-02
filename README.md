@@ -1,86 +1,41 @@
-# Square-Eyes-New-Interaction Design
+Square-Eyes-New-Interaction Design
+Description
+Welcome to Square Eyes, a movie platform designed to showcase how users could watch and download movies online. This project serves as a demo to illustrate a user-friendly interface for browsing movie content, leveraging data from the Noroff API to display movies on both the main page and individual movie pages. It's a tribute to the simplicity and power of HTML5 and CSS3 in creating compelling web experiences.
 
+Features and Functionality
+Demo Only: This project is a static demonstration and does not support account creation, purchasing, content watching, or downloading capabilities.
+UI Insights: Utilized Hotjar recordings and user testing to refine the user interface, aiming for an intuitive browsing experience.
+API Integration: Displays movie data fetched from the Noroff API on movie pages, providing a glimpse into how real-world applications might integrate external data sources.
+Built With
+HTML5
+CSS3
+Getting Started
+Prerequisites
+No specific prerequisites required. The project is straightforward to review and run without the need for additional tools or installations.
 
-## Description
-Square-Eyes - movies platform, where users can buy and watch or download video content.
+Installation
+To explore this demo, simply clone the repository and start by opening the index file in your preferred web browser.
 
-Square Eyes in the platform for video content, where users would be able to create account, buy and watch content, buy and download content.
-
-- Built with only HTML and CSS, this is not a fully functional website.
-- Using Noroff API to fetch data about movies.
-- Made with improved UI techniques, to make users easily browse throught the website.
-
-### Built With
-
-- HTML
-- CSS
-  
-
-## Getting Started
-
-### Prerequisites
-
-List any prerequisites needed to run your project, such as software, libraries, or accounts.
-
-- Prerequisite 1
-- Prerequisite 2
-
-### Installation
-
-Steps to get your project running locally. Include commands to clone the repository and install dependencies.
-
-```bash
+bash
+Copy code
 # Clone the repository
-git clone https://github.com/yourusername/yourprojectname.git
+git clone https://github.com/AB30001/Square-Eyes-CA-Interaction-Design-AB-Square-Eyes
+Navigate to the project directory and open the index.html file in a web browser to view the project.
 
-# Navigate to the project directory
-cd yourprojectname
+Contributing
+Given this is a foundational college project, it's somewhat messy and might be challenging for external contributions. However, feedback and insights are always welcome.
 
-# Install dependencies
-npm install
-```
+Contact
+Feel free to reach out (you would insert your contact information here, such as a LinkedIn profile or an email).
 
-### Running
+License
+This project is open for anyone to use and learn from.
 
-Instructions on how to run the project. Include the commands needed.
+Acknowledgments
+Inspiration for Square Eyes was drawn from various leading platforms in the entertainment industry, including:
 
-```bash
-# Start the project
-npm run serve
-```
-
-## Contributing
-
-Guidelines for contributing to the project. You can specify the process for submitting pull requests, coding standards, and other requirements.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'')
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## Contact
-
-Your contact information for others to reach you.
-
-- [Twitter](#)
-- [LinkedIn](#)
-
-## License
-
-Specify the license under which your project is released, or if unsure, you can omit this section or state that it's currently unlicensed.
-
-## Acknowledgments
-
-Use this section to acknowledge and give credit to any resources, mentors, or code snippets that helped you with this project.
-
-- Acknowledgment 1
-- Acknowledgment 2
-- Acknowledgment 3
-
-
-
-
-
-
-
+filmai.in
+Netflix
+HBO
+Amazon Movies
+This project aims to encapsulate the essence of these industry giants, providing a streamlined interface for movie enthusiasts.
